@@ -61,3 +61,8 @@ or
 setsid sh -c 'tty; ps -jp "$$"; ./angr-dev/setup.sh <your arguments go here>' < /dev/null
 ```
 
+### update
+
+给docker镜像中的apt换源，制作镜像时加上了http和https的代理
+
+fuck gfw
